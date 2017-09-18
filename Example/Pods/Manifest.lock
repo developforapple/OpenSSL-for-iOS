@@ -1,0 +1,16 @@
+PODS:
+  - OpenSSL-for-iOS (0.1.0)
+
+DEPENDENCIES:
+  - OpenSSL-for-iOS (from `../`)
+
+EXTERNAL SOURCES:
+  OpenSSL-for-iOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OpenSSL-for-iOS: 83d7c334a58a768bad3b1328b2ba0fc0f04152a1
+
+PODFILE CHECKSUM: b5051f7593cfd0226ae2386474c07fb140f354c8
+
+COCOAPODS: 1.2.1

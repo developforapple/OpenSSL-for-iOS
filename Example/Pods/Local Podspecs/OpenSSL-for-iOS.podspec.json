@@ -1,0 +1,23 @@
+{
+  "name": "OpenSSL-for-iOS",
+  "version": "0.1.0",
+  "summary": "A short description of OpenSSL-for-iOS..",
+  "description": "A long description of OpenSSL-for-iOS.......",
+  "homepage": "https://github.com/developforapple",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "developforapple": "developforapple@163.com"
+  },
+  "source": {
+    "git": "https://github.com/developforapple@163.com/OpenSSL-for-iOS.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "OpenSSL-for-iOS/Classes/**/*",
+  "public_header_files": "Pod/Classes/**/*.h"
+}

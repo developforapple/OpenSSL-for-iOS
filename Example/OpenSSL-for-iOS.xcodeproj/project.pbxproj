@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D8E29DAAA1C40CAA91BCDDF /* Pods_OpenSSL_for_iOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40C8C40B88767E348807CD06 /* Pods_OpenSSL_for_iOS_Example.framework */; };
+		578C4ACC78E0DD52963FE26B /* libPods-OpenSSL-for-iOS_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0D493B41F92656CB14BC67F /* libPods-OpenSSL-for-iOS_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,7 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		B03D3C7C54340556F88251F6 /* Pods_OpenSSL_for_iOS_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A807A330F4216AEC02390DEA /* Pods_OpenSSL_for_iOS_Tests.framework */; };
+		A7D766BC076E13F6336B16E5 /* libPods-OpenSSL-for-iOS_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44B6F3E4EFE1F958745A9A3F /* libPods-OpenSSL-for-iOS_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,10 +38,10 @@
 
 /* Begin PBXFileReference section */
 		183C77291042F50FE1E311F9 /* Pods-OpenSSL-for-iOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenSSL-for-iOS_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenSSL-for-iOS_Example/Pods-OpenSSL-for-iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
-		24C03F0E03034887F2FFCA90 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		2928799C6D9B754EC04BB3FB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		24C03F0E03034887F2FFCA90 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2928799C6D9B754EC04BB3FB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3F6EC9499868303252DEF002 /* Pods-OpenSSL-for-iOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenSSL-for-iOS_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenSSL-for-iOS_Tests/Pods-OpenSSL-for-iOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		40C8C40B88767E348807CD06 /* Pods_OpenSSL_for_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenSSL_for_iOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44B6F3E4EFE1F958745A9A3F /* libPods-OpenSSL-for-iOS_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenSSL-for-iOS_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45911891E5FD178BD01BC6C9 /* Pods-OpenSSL-for-iOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenSSL-for-iOS_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenSSL-for-iOS_Tests/Pods-OpenSSL-for-iOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* OpenSSL-for-iOS_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenSSL-for-iOS_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,9 +64,9 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A807A330F4216AEC02390DEA /* Pods_OpenSSL_for_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenSSL_for_iOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0D493B41F92656CB14BC67F /* libPods-OpenSSL-for-iOS_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenSSL-for-iOS_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D817163EB924CD4E5B15FFC7 /* Pods-OpenSSL-for-iOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenSSL-for-iOS_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenSSL-for-iOS_Example/Pods-OpenSSL-for-iOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DB3671E671DAFF965D91D938 /* OpenSSL-for-iOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "OpenSSL-for-iOS.podspec"; path = "../OpenSSL-for-iOS.podspec"; sourceTree = "<group>"; };
+		DB3671E671DAFF965D91D938 /* OpenSSL-for-iOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "OpenSSL-for-iOS.podspec"; path = "../OpenSSL-for-iOS.podspec"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				0D8E29DAAA1C40CAA91BCDDF /* Pods_OpenSSL_for_iOS_Example.framework in Frameworks */,
+				A7D766BC076E13F6336B16E5 /* libPods-OpenSSL-for-iOS_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				B03D3C7C54340556F88251F6 /* Pods_OpenSSL_for_iOS_Tests.framework in Frameworks */,
+				578C4ACC78E0DD52963FE26B /* libPods-OpenSSL-for-iOS_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +134,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				40C8C40B88767E348807CD06 /* Pods_OpenSSL_for_iOS_Example.framework */,
-				A807A330F4216AEC02390DEA /* Pods_OpenSSL_for_iOS_Tests.framework */,
+				44B6F3E4EFE1F958745A9A3F /* libPods-OpenSSL-for-iOS_Example.a */,
+				C0D493B41F92656CB14BC67F /* libPods-OpenSSL-for-iOS_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -479,7 +479,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -512,7 +512,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;

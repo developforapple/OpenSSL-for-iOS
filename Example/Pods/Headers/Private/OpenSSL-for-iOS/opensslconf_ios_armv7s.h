@@ -1,0 +1,1 @@
+../../../../../OpenSSL-for-iOS/Classes/include/openssl/opensslconf_ios_armv7s.h
