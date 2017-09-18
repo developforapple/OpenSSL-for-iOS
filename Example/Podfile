@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'OpenSSL-for-iOS_Example' do
+  pod 'OpenSSL-for-iOS', :path => '../'
+
+  target 'OpenSSL-for-iOS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
